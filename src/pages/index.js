@@ -6,12 +6,12 @@ import Footer from "@/sections/Footer";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Header />
       <Hero />
       <About />
       <Projects />
       <Footer />
-    </main>
+    </>
   );
 }

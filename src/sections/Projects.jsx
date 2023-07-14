@@ -33,6 +33,7 @@ const Projects = () => {
                 </span>
                 <span className="text-gray-500">Gatsby / Node JS</span>
                 <a
+                  target="_blank"
                   href="http://executivelimoservicemiami.com/"
                   className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-[#02dea3]"
                 >
@@ -62,6 +63,7 @@ const Projects = () => {
                 </span>
                 <span className="text-gray-500">Next JS</span>
                 <a
+                  target="_blank"
                   href="https://utopiaclimbcommunity.com/"
                   className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-[#02dea3]"
                 >
@@ -91,6 +93,7 @@ const Projects = () => {
                 </span>
                 <span className="text-gray-500">React JS / Node JS</span>
                 <a
+                  target="_blank"
                   href="https://thecrafthut.onrender.com/"
                   className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-[#02dea3]"
                 >
@@ -120,6 +123,7 @@ const Projects = () => {
                 </span>
                 <span className="text-gray-500">Gatsby</span>
                 <a
+                  target="_blank"
                   href="https://restaurant-ee3a.onrender.com/"
                   className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-[#02dea3]"
                 >
@@ -150,6 +154,7 @@ const Projects = () => {
                 </span>
                 <span className="text-gray-500">React JS</span>
                 <a
+                  target="_blank"
                   href="https://personal-branding-agency.onrender.com/"
                   className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-[#02dea3]"
                 >
@@ -180,6 +185,7 @@ const Projects = () => {
                 </span>
                 <span className="text-gray-500">Next JS</span>
                 <a
+                  target="_blank"
                   href="https://jovial-lollipop-98d58f.netlify.app/"
                   className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-[#02dea3]"
                 >
@@ -210,6 +216,7 @@ const Projects = () => {
                 </span>
                 <span className="text-gray-500">HTML / CSS / JS</span>
                 <a
+                  target="_blank"
                   href="https://visiticeland.onrender.com/"
                   className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-[#02dea3]"
                 >
@@ -240,6 +247,7 @@ const Projects = () => {
                 </span>
                 <span className="text-gray-500">Next JS</span>
                 <a
+                  target="_blank"
                   href="https://flourishing-heliotrope-54e07a.netlify.app/"
                   className="group mt-4 inline-flex items-center gap-1 text-md font-medium text-[#02dea3]"
                 >
