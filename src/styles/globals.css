@@ -1,27 +1,28 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Source+Code+Pro:wght@300&display=swap");
+
+@font-face {
+  font-family: "Black Ops One";
+  src: url("../../fonts/BlackOpsOne-Regular.ttf");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: "Source Code Pro";
+  src: url("../../fonts/SourceCodePro-Light.ttf");
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Black Ops One", cursive;
+}
+
+p {
+  font-family: "Source Code Pro", monospace;
 }
