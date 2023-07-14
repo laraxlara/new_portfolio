@@ -3,38 +3,38 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div class="bg-[#3d3d3d] pt-4 sm:pt-10 lg:pt-12">
-      <footer class="mx-auto max-w-screen-2xl px-4 md:px-8">
-        <div class="flex flex-col items-center border-t border-gray-400 pt-6">
-          <nav class="mb-4 flex flex-wrap justify-center gap-x-4 gap-y-2 md:justify-start md:gap-6">
+    <div className="bg-[#3d3d3d] pt-4 sm:pt-10 lg:pt-12">
+      <footer className="mx-auto max-w-screen-2xl px-4 md:px-8">
+        <div className="flex flex-col items-center border-t border-gray-400 pt-6">
+          <nav className="mb-4 flex flex-wrap justify-center gap-x-4 gap-y-2 md:justify-start md:gap-6">
             <Link
               href="#home"
-              class="text-gray-200 transition duration-100 hover:text-[#02dea3] active:text-indigo-600"
+              className="text-gray-200 transition duration-100 hover:text-[#02dea3] active:text-indigo-600"
             >
               Home
             </Link>
             <Link
               href="#about"
-              class="text-gray-200 transition duration-100 hover:text-[#02dea3] active:text-indigo-600"
+              className="text-gray-200 transition duration-100 hover:text-[#02dea3] active:text-indigo-600"
             >
               About
             </Link>
 
             <Link
               href="#projects"
-              class="text-gray-200 transition duration-100 hover:text-[#02dea3] active:text-indigo-600"
+              className="text-gray-200 transition duration-100 hover:text-[#02dea3] active:text-indigo-600"
             >
               Projects
             </Link>
           </nav>
-          <div class="flex gap-4">
+          <div className="flex gap-4">
             <a
               href="https://www.instagram.com/lara.celic/"
               target="_blank"
-              class="text-gray-400 transition duration-100 hover:text-[#02dea3] active:text-gray-600"
+              className="text-gray-400 transition duration-100 hover:text-[#02dea3] active:text-gray-600"
             >
               <svg
-                class="h-5 w-5"
+                className="h-5 w-5"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -48,10 +48,10 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/in/lara-celic-90565b25b/"
               target="_blank"
-              class="text-gray-400 transition duration-100 hover:text-[#02dea3] active:text-gray-600"
+              className="text-gray-400 transition duration-100 hover:text-[#02dea3] active:text-gray-600"
             >
               <svg
-                class="h-5 w-5"
+                className="h-5 w-5"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -65,10 +65,10 @@ const Footer = () => {
             <a
               href="https://github.com/laraxlara"
               target="_blank"
-              class="text-gray-400 transition duration-100 hover:text-[#02dea3] active:text-gray-600"
+              className="text-gray-400 transition duration-100 hover:text-[#02dea3] active:text-gray-600"
             >
               <svg
-                class="h-5 w-5"
+                className="h-5 w-5"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -81,7 +81,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="py-8 text-center text-sm text-gray-400">
+        <div className="py-8 text-center text-sm text-gray-400">
           © 2023 - Lara Celic. All rights reserved.
         </div>
       </footer>
