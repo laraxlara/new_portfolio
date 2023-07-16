@@ -13,6 +13,9 @@ const Navbar = () => {
       <Link href="#projects" className="mr-5 hover:text-[#02dea3]">
         Projects
       </Link>
+      <Link href="#contact" className="mr-5 hover:text-[#02dea3]">
+        Contact
+      </Link>
     </nav>
   );
 };

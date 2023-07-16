@@ -5,56 +5,59 @@ import h2 from "../../public/images/hero2.jpg";
 
 const Hero = () => {
   return (
-    <section class="mx-auto bg-[#3d3d3d] max-w-screen-2xl py-4 px-4">
-      <div class="mb-8 flex flex-wrap justify-between md:mb-16">
-        <div class="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">
-          <h1 class="mb-4 text-4xl font-bold text-gray-200 sm:text-5xl md:mb-8 md:text-6xl">
+    <section
+      id="home"
+      className="mx-auto bg-[#3d3d3d] max-w-screen-2xl py-4 px-4"
+    >
+      <div className="mb-8 flex flex-wrap justify-between md:mb-16">
+        <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">
+          <h1 className="mb-4 text-4xl font-bold text-gray-200 sm:text-5xl md:mb-8 md:text-6xl">
             Hi, I'm Lara.
             <br />
             Web Developer.
           </h1>
 
-          <p class="max-w-md leading-relaxed text-gray-400 xl:text-lg">
+          <p className="max-w-md leading-relaxed text-gray-400 xl:text-lg">
             Website Design And Development Services Including SEO Optimization
           </p>
         </div>
 
-        <div class="mb-12 flex w-full md:mb-16 lg:w-2/3">
-          <div class="relative left-12 top-12 z-10 -ml-12 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:left-16 md:top-16 lg:ml-0">
+        <div className="mb-12 flex w-full md:mb-16 lg:w-2/3">
+          <div className="relative left-12 top-12 z-10 -ml-12 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:left-16 md:top-16 lg:ml-0">
             <Image
               src={h2}
               loading="lazy"
               alt="Photo by Kaung Htet"
-              class="h-full w-full object-cover object-center"
+              className="h-full w-full object-cover object-center"
             />
           </div>
 
-          <div class="overflow-hidden rounded-lg bg-gray-100 shadow-lg">
+          <div className="overflow-hidden rounded-lg bg-gray-100 shadow-lg">
             <Image
               src={h1}
               loading="lazy"
               alt="Photo by Manny Moreno"
-              class="h-full w-full object-cover object-center"
+              className="h-full w-full object-cover object-center"
             />
           </div>
         </div>
       </div>
 
-      <div class="flex flex-col items-center justify-between gap-8 md:flex-row">
-        <div class="flex items-center justify-center gap-4 lg:justify-start">
-          <span class="text-sm font-semibold uppercase tracking-widest text-gray-400 sm:text-base">
+      <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
+        <div className="flex items-center justify-center gap-4 lg:justify-start">
+          <span className="text-sm font-semibold uppercase tracking-widest text-gray-400 sm:text-base">
             Social
           </span>
-          <span class="h-px w-12 bg-gray-200"></span>
+          <span className="h-px w-12 bg-gray-200"></span>
 
-          <div class="flex gap-4">
+          <div className="flex gap-4">
             <a
               href="https://www.instagram.com/lara.celic/"
               target="_blank"
-              class="text-gray-400 transition duration-100 hover:text-[#02dea3] active:text-gray-600"
+              className="text-gray-400 transition duration-100 hover:text-[#02dea3] active:text-gray-600"
             >
               <svg
-                class="h-5 w-5"
+                className="h-5 w-5"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -68,10 +71,10 @@ const Hero = () => {
             <a
               href="https://www.linkedin.com/in/lara-celic-90565b25b/"
               target="_blank"
-              class="text-gray-400 transition duration-100 hover:text-[#02dea3] active:text-gray-600"
+              className="text-gray-400 transition duration-100 hover:text-[#02dea3] active:text-gray-600"
             >
               <svg
-                class="h-5 w-5"
+                className="h-5 w-5"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -85,10 +88,10 @@ const Hero = () => {
             <a
               href="https://github.com/laraxlara"
               target="_blank"
-              class="text-gray-400 transition duration-100 hover:text-[#02dea3] active:text-gray-600"
+              className="text-gray-400 transition duration-100 hover:text-[#02dea3] active:text-gray-600"
             >
               <svg
-                class="h-5 w-5"
+                className="h-5 w-5"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
