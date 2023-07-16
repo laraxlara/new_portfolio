@@ -36,9 +36,7 @@ const About = () => {
                 websites that convert visitors into customers and make
                 businesses grow. When I create websites I strive for
                 perfectionism and constant pushing of boundaries. Now that you
-                know a bit more about me, check out my projects and if you are
-                interested in cooperation or have any kind of question, head
-                over to one of the social media icons and send me a message!
+                know a bit more about me, check out my projects.
               </p>
               {/* <a className="text-indigo-500 inline-flex items-center">
                 Learn More
