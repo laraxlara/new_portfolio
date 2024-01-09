@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="mx-auto bg-[#3d3d3d] max-w-screen-2xl py-4 px-4"
+      className="mx-auto bg-[#3d3d3d] max-w-screen-2xl py-4 px-4 md:px-12 max-w-screen-2xl"
     >
       <div className="mb-8 flex flex-wrap justify-between md:mb-16">
         <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">

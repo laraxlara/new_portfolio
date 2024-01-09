@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import utopia from "../../public/images/utopia.jpeg";
 import restaurant from "../../public/images/restaurant.jpg";
+import hero from "../../public/images/hero5.jpg";
 import beer from "../../public/images/beer.jpg";
 import limo from "../../public/images/limo.jpg";
 import branding from "../../public/images/branding.jpg";
@@ -31,10 +32,10 @@ const Projects = () => {
                 <span className="text-lg font-bold text-gray-800 lg:text-xl">
                   Executive Limo Service
                 </span>
-                <span className="text-gray-500">Gatsby / Node JS</span>
+                <span className="text-gray-500">Next JS</span>
                 <a
                   target="_blank"
-                  href="http://executivelimoservicemiami.com/"
+                  href="http://executivelimomiami.com/"
                   className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-[#02dea3]"
                 >
                   See project
@@ -111,7 +112,7 @@ const Projects = () => {
           <div>
             <div className="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
               <Image
-                src={restaurant}
+                src={hero}
                 loading="lazy"
                 alt="Photo by Austin Wade"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -119,12 +120,12 @@ const Projects = () => {
 
               <div className="relative flex w-full flex-col justify-center items-center rounded-lg bg-white p-4 text-center">
                 <span className="text-lg font-bold text-gray-800 lg:text-xl">
-                  Restaurant
+                  Onesped
                 </span>
-                <span className="text-gray-500">Gatsby</span>
+                <span className="text-gray-500">Next JS</span>
                 <a
                   target="_blank"
-                  href="https://restaurant-ee3a.onrender.com/"
+                  href="https://bucolic-dodol-c6e451.netlify.app/"
                   className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-[#02dea3]"
                 >
                   See project

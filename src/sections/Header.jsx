@@ -14,8 +14,8 @@ const Header = () => {
             strokeWidth="1"
             stroke="currentColor"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             className="w-12 h-12 bg-[#02dea3] rounded-full p-2"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
