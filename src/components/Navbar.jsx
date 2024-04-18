@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+    <nav className="md:ml-auto flex px-4 flex-wrap items-center text-base justify-center">
       <Link href="#home" className="mr-5 hover:text-[#02dea3]">
         Home
       </Link>

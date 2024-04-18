@@ -1,13 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import utopia from "../../public/images/utopia.jpeg";
-import restaurant from "../../public/images/restaurant.jpg";
 import hero from "../../public/images/hero5.jpg";
 import beer from "../../public/images/beer.jpg";
 import limo from "../../public/images/limo.jpg";
 import branding from "../../public/images/branding.jpg";
-import iceland from "../../public/images/iceland.jpg";
-import space from "../../public/images/space.jpg";
+import inImg from "../../public/images/in.png";
+import a2 from "../../public/images/a2.jpg";
 import larawind from "../../public/images/larawind.png";
 
 const Projects = () => {
@@ -19,6 +18,36 @@ const Projects = () => {
         </h2>
 
         <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4">
+          <div>
+            <div className="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+              <Image
+                src={hero}
+                loading="lazy"
+                alt="Photo by Austin Wade"
+                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+              />
+
+              <div className="relative flex w-full flex-col justify-center items-center rounded-lg bg-white p-4 text-center">
+                <span className="text-lg font-bold text-gray-800 lg:text-xl">
+                  Onesped
+                </span>
+                <span className="text-gray-500">Next JS</span>
+                <a
+                  target="_blank"
+                  href="https://onesped.netlify.app/"
+                  className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-[#02dea3]"
+                >
+                  See project
+                  <span
+                    aria-hidden="true"
+                    className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+                  >
+                    &rarr;
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
           <div>
             <div className="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
               <Image
@@ -49,23 +78,24 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
           <div>
             <div className="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
               <Image
-                src={utopia}
+                src={inImg}
                 loading="lazy"
-                alt="Photo by engin akyurt"
+                alt="Photo by Austin Wade"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
               />
 
               <div className="relative flex w-full flex-col justify-center items-center rounded-lg bg-white p-4 text-center">
                 <span className="text-lg font-bold text-gray-800 lg:text-xl">
-                  Utopia Climbing Community
+                  InstaInvitely
                 </span>
                 <span className="text-gray-500">Next JS</span>
                 <a
                   target="_blank"
-                  href="https://utopiaclimbcommunity.com/"
+                  href="https://instainvitely.netlify.app/"
                   className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-[#02dea3]"
                 >
                   See project
@@ -79,53 +109,24 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
           <div>
             <div className="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
               <Image
-                src={beer}
+                src={a2}
                 loading="lazy"
-                alt="Photo by Austin Wade"
+                alt="Advantage Black Car"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
               />
 
               <div className="relative flex w-full flex-col justify-center items-center rounded-lg bg-white p-4 text-center">
                 <span className="text-lg font-bold text-gray-800 lg:text-xl">
-                  The Craft Hut
-                </span>
-                <span className="text-gray-500">React JS / Node JS</span>
-                <a
-                  target="_blank"
-                  href="https://thecrafthut.onrender.com/"
-                  className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-[#02dea3]"
-                >
-                  See project
-                  <span
-                    aria-hidden="true"
-                    className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
-                  >
-                    &rarr;
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-              <Image
-                src={hero}
-                loading="lazy"
-                alt="Photo by Austin Wade"
-                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-              />
-
-              <div className="relative flex w-full flex-col justify-center items-center rounded-lg bg-white p-4 text-center">
-                <span className="text-lg font-bold text-gray-800 lg:text-xl">
-                  Onesped
+                  Advantage Black Car
                 </span>
                 <span className="text-gray-500">Next JS</span>
                 <a
                   target="_blank"
-                  href="https://bucolic-dodol-c6e451.netlify.app/"
+                  href="https://advantageblackcar.netlify.app/"
                   className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-[#02dea3]"
                 >
                   See project
@@ -174,7 +175,7 @@ const Projects = () => {
           <div>
             <div className="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
               <Image
-                src={space}
+                src={beer}
                 loading="lazy"
                 alt="Photo by Austin Wade"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -182,12 +183,12 @@ const Projects = () => {
 
               <div className="relative flex w-full flex-col justify-center items-center rounded-lg bg-white p-4 text-center">
                 <span className="text-lg font-bold text-gray-800 lg:text-xl">
-                  Space
+                  The Craft Hut
                 </span>
-                <span className="text-gray-500">Next JS</span>
+                <span className="text-gray-500">React JS / Node JS</span>
                 <a
                   target="_blank"
-                  href="https://jovial-lollipop-98d58f.netlify.app/"
+                  href="https://thecrafthut.onrender.com/"
                   className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-[#02dea3]"
                 >
                   See project
@@ -205,20 +206,20 @@ const Projects = () => {
           <div>
             <div className="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
               <Image
-                src={iceland}
+                src={utopia}
                 loading="lazy"
-                alt="Photo by Austin Wade"
+                alt="Photo by engin akyurt"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
               />
 
               <div className="relative flex w-full flex-col justify-center items-center rounded-lg bg-white p-4 text-center">
                 <span className="text-lg font-bold text-gray-800 lg:text-xl">
-                  Iceland
+                  Utopia Climbing Community
                 </span>
-                <span className="text-gray-500">HTML / CSS / JS</span>
+                <span className="text-gray-500">Next JS</span>
                 <a
                   target="_blank"
-                  href="https://visiticeland.onrender.com/"
+                  href="https://utopiaclimbcommunity.com/"
                   className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-[#02dea3]"
                 >
                   See project
@@ -249,7 +250,7 @@ const Projects = () => {
                 <span className="text-gray-500">Next JS</span>
                 <a
                   target="_blank"
-                  href="https://flourishing-heliotrope-54e07a.netlify.app/"
+                  href="https://larawindui.netlify.app/"
                   className="group mt-4 inline-flex items-center gap-1 text-md font-medium text-[#02dea3]"
                 >
                   See project
